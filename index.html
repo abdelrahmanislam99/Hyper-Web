@@ -1,3 +1,4 @@
+
 <!DocTYPE html>
 <html lang="en">
   <head>
@@ -22,10 +23,7 @@
   </head>
   <body>
 
-    
-
-
-    <header class="bg-dark row justify-content-between align-items-center">
+    <header class="row justify-content-between align-items-center">
 
       <a href="index.html">
         <div class="col-lg-3   col-sm-9 " id="page-up"  >
@@ -70,7 +68,7 @@
 
         
 
-        <div class="   col-lg-2  col-sm-9">
+        <div class="col-lg-2  col-sm-9">
 
           <ul id="list-item" class="row justify-content-end ">
             <a href="https://ar-ar.facebook.com/">
@@ -88,39 +86,45 @@
           </ul>
 
         </div>
+    </header>
+
+    
+
+    <div class="content">
+
+      <nav class="navbar navbar-expand-lg navbar-secondary bg-dark m-3 " >
+        <button class="navbar-toggler btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">>></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-1">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Breads <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Fruits</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Foods
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Meat</a>
+                <a class="dropdown-item" href="#">Vegetables</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Butters</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
       
 
+      <div class="front"></div>
 
-
-    </header>
+      
     
-    <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary m-3 " >
-      <button class="navbar-toggler btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">>></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mt-1">
-          <li class="nav-item active">
-            <a class="nav-link text-light" href="#">Breads <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Fruits</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Foods
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Meat</a>
-              <a class="dropdown-item" href="#">Vegetables</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Butters</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>    
 
     <div class="alert alert-primary alert-dismissible fade show m-3" role="alert">
       <strong>Hurry up!</strong> Winter discounts time are almost up.<h2>Discounts up to <a href="#" class="badge badge-warning">70%</a></h2>
@@ -132,7 +136,7 @@
 
     <main class="row">
 
-      <div id="carouselExampleCaptions" class="carousel slide col-lg-7 m-3" data-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel myCarousel slide col-lg-7 m-3" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -174,21 +178,14 @@
 
       <div class="col-lg-4 m-1">
 
-        <div class="card w-100" style="width: 18rem;">
+        <div class="card w-100" style="width: 18rem; background-color: rgb(238, 244, 245);">
           <div class="card-body">
             <h5 class="card-title">Have a tour inside our website</h5>
             <p class="card-text">Have a tour inside our website Have a tour inside our website Have a tour inside our website.</p>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-outline-danger active ">
-                <input type="radio" name="options" id="option1" checked> Fresh
-              </label>
-              <label class="btn btn-outline-danger ">
-                <input type="radio" name="options" id="option2"> Healthy
-              </label>
-              <label class="btn btn-outline-danger ">
-                <input type="radio" name="options" id="option3"> Tasty
-              </label>
-            </div>        </div>
+              <button type="button" class="btn btn-warning btn-block">Sign in</button>
+            </div>
+          </div>
         </div>
         
 <a href="#">
@@ -213,6 +210,9 @@
     
     </main>
 
+
+    </div>
+    
       <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Fresh healthy tasty</h1>
@@ -225,7 +225,7 @@
     <div class="card-deck m-3">
       <div class="card">
         <a href="#">
-          <img src="img/22.jpg" class="card-img-top" alt="...">
+          <img src="img/jam-428094_960_720.jpg" class="card-img-top" alt="...">
         </a>
         <div class="card-body">
           <h5 class="card-title">HyperWeb</h5>
@@ -236,7 +236,9 @@
         </div>
       </div>
       <div class="card">
-        <img src="img/22.jpg" class="card-img-top" alt="...">
+        <a href="#">
+          <img src="img/waffle-hearts-2697904_960_720.jpg" class="card-img-top" alt="...">
+        </a>
         <div class="card-body">
           <h5 class="card-title">HyperWeb</h5>
           <p class="card-text">HyperWeb HyperWeb HyperWeb.</p>
@@ -246,7 +248,9 @@
         </div>
       </div>
       <div class="card">
-        <img src="img/22.jpg" class="card-img-top" alt="...">
+        <a href="#">
+          <img src="img/pizza-2068272_960_720.jpg" class="card-img-top" alt="...">
+        </a>
         <div class="card-body">
           <h5 class="card-title">HyperWeb</h5>
           <p class="card-text">HyperWeb HyperWeb HyperWeb.</p>
@@ -258,7 +262,7 @@
     </div>
 
 
-    <footer class=" bg-dark text-light text-center">
+    <footer class="text-light text-center">
 
       <a href="#page-up"><span class="btn btn-outline-light text-center m-1"    href="#page-up">
         Back to top
