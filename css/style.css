@@ -10,3 +10,23 @@ header li{
     font-size: 50px;
 }
 
+.content{
+    background: url("../img/flat-lay-2583213_960_720.jpg") no-repeat fixed rgb(245, 245, 245);
+}
+
+.front{
+    height: 200px;
+}
+
+header{
+    background-color: #0F1111;
+}
+
+.myCarousel{
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+}
+
+footer{
+    background-color: #0F1111;
+}
